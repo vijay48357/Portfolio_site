@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-sm fixed-top custom-navbar">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2 fw-bold" href="portfolio.html">
+        <img src="image/vijay.jpg" alt="Vijay Logo" class="navbar-logo">
+        Portfolio
+      </a>
+
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="nav">
+        <ul class="navbar-nav align-items-lg-center gap-lg-3">
+          <li class="nav-item"><a class="nav-link" href="portfolio.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="project.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+
+          <!-- Create Portfolio Button -->
+          <li class="nav-item">
+            <a class="btn btn-outline-light create-btn" href="contact.html">
+              Create Portfolio
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="row align-items-center min-vh-100">
+
+        <div class="col-lg-6 text-center text-lg-start">
+          <h1 class="hero-title">Hello, I'm <span>Vijay</span></h1>
+          <p class="hero-subtitle">
+            Frontend Developer specializing in modern, responsive web design.
+          </p>
+
+          <div class="hero-buttons mb-3">
+            <a href="project.html" class="btn btn-primary btn-mx ms-3">View Projects</a>
+            <a href="contact.html" class="btn btn-outline-light btn-sm">Hire Me</a>
+          </div>
+
+          <!-- Social Media Links -->
+          <div class="social-links mt-3">
+            <a href="https://www.linkedin.com/in/e-vijay-731bab213/" target="_blank" class="social-icon">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+
+            <a href="https://www.naukri.com/mprofile/your-profile" target="_blank" class="social-icon">
+              <i class="fas fa-briefcase"></i>
+            </a>
+
+            <a href="https://twitter.com/your-username" target="_blank" class="social-icon">
+              <i class="fab fa-x-twitter"></i>
+            </a>
+
+            <a href="https://www.onlinebook.in" target="_blank" class="social-icon">
+              <i class="fas fa-book"></i>
+            </a>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6 text-center mt-5 mt-lg-0">
+          <img src="image/vijay.jpg" alt="Vijay" class="profile-img small-img">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="portfolio.js"></script>
+</body>
+
+</html>
